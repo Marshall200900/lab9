@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace prog9cons
+namespace prog99
 {
     class Program
     {
