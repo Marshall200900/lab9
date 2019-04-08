@@ -123,8 +123,8 @@ namespace prog99
             Console.WriteLine();
 
             Console.Write("Наименьшее расстояние между точкой и началом координат в массиве - " + string.Format("{0:0.00}", arr2.FindShortestDistance()));
+            Console.WriteLine("Количество созданных объектов в программе: " + (Point.counter + PointArray.counter));
             Console.ReadKey();
-
         }
     }
 }

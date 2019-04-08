@@ -4,6 +4,7 @@ namespace prog99
 {
     public class Point
     {
+        public static int counter = 0;
         // Автоматические свойства
         public double X { get; set; }
         public double Y { get; set; }
@@ -13,11 +14,15 @@ namespace prog99
         {
             X = 0;
             Y = 0;
+            counter++;
+
         }
         public Point(double x, double y)
         {
             X = x;
             Y = y;
+            counter++;
+
         }
 
         //Методы
